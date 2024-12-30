@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "998336177148",
+    "project_id": "hoppit-qa",
+    "storage_bucket": "hoppit-qa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998336177148:android:cbf0d0a1bc97fd0e738879",
+        "android_client_info": {
+          "package_name": "codes.gallagher.hoppitapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqJFos6na8H3toFf61yCODKPf_VrPVATE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
