@@ -2,10 +2,7 @@ import 'package:envied/envied.dart';
 
 part 'env.g.dart';
 
-@Envied(
-  path: '.env.dev',
-  obfuscate: true,
-)
+@Envied(path: '.env.dev')
 abstract class Env {
   @EnviedField(varName: 'FIREBASE_ANDROID_API_KEY')
   static const String firebaseAndroidApiKey = _Env.firebaseAndroidApiKey;

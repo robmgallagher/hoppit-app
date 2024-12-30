@@ -3,6 +3,7 @@
 import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
     show defaultTargetPlatform, kIsWeb, TargetPlatform;
+import 'package:hoppit_app/core/config/env.dart';
 
 /// Default [FirebaseOptions] for use with your Firebase apps.
 ///
@@ -47,7 +48,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCzlNHwVVJaR1tZhdKM2PTZTT-X-m6Iyuo',
+    apiKey: Env.firebaseWebApiKey,
     appId: '1:998336177148:web:77dea6844498c72e738879',
     messagingSenderId: '998336177148',
     projectId: 'hoppit-qa',
@@ -57,7 +58,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDqJFos6na8H3toFf61yCODKPf_VrPVATE',
+    apiKey: Env.firebaseAndroidApiKey,
     appId: '1:998336177148:android:cbf0d0a1bc97fd0e738879',
     messagingSenderId: '998336177148',
     projectId: 'hoppit-qa',
@@ -65,7 +66,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyANEhyJEyTzOJGY4bThLIz9wpLiUAiPvP4',
+    apiKey: Env.firebaseIosApiKey,
     appId: '1:998336177148:ios:6e56558e834a2125738879',
     messagingSenderId: '998336177148',
     projectId: 'hoppit-qa',
